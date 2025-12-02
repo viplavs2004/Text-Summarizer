@@ -1,6 +1,6 @@
 # Text Summarizer using BART (Fine-Tuned on SAMSum)
 
-```markdown
+
 
 
 This project implements an end-to-end dialogue summarization system using a fine-tuned **BART Large CNN** model on the **SAMSum dataset**. It includes a complete machine learning pipeline for training, evaluation, and a **FastAPI-based** inference service.
@@ -13,7 +13,7 @@ This project implements an end-to-end dialogue summarization system using a fine
 - **REST API:** Fast real-time summarization using FastAPI.
 - **Batch Prediction:** Support for generating summaries from CSV files.
 
----
+
 
 ## Installation
 
@@ -32,7 +32,7 @@ This project implements an end-to-end dialogue summarization system using a fine
 
 ## Training the Model
 
-To run the full Machine Learning pipeline, execute the main script:
+To run the full pipeline, execute the main script:
 
 ```bash
 python main.py
@@ -51,7 +51,7 @@ The fine-tuned model will be saved inside the `artifacts` directory.
 
 ## Model Evaluation Results (ROUGE Scores)
 
-After correcting the evaluation script, the model achieved the following ROUGE scores on the SAMSum test set. These scores indicate strong summarization quality for a BART model fine-tuned on conversational data.
+ The model achieved the following ROUGE scores on the SAMSum test set. These scores indicate strong summarisation quality for a BART model fine-tuned on conversational data.
 
 | Metric | Score |
 | :--- | :--- |
